@@ -1,5 +1,8 @@
 body {
   background: radial-gradient(white, #4f4f4f);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .two {
@@ -30,6 +33,9 @@ body {
   margin-top: 10px;
   border: 1px solid #000;
   border-radius: 5px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .container .budget button {
   height: 35px;
@@ -39,6 +45,9 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .container .budget button:hover {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -54,6 +63,9 @@ body {
   height: 30px;
   border: 1px solid #000;
   border-radius: 5px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .container .expenses input {
   width: 350px;
@@ -61,6 +73,9 @@ body {
   margin-top: 10px;
   border: 1px solid #000;
   border-radius: 5px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .container .expenses button {
   height: 35px;
@@ -70,6 +85,9 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .container .expenses button:hover {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);

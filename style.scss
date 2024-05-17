@@ -8,8 +8,12 @@ $color2: #4f4f4f;
     background: radial-gradient($color1, $color2);
 }
 
+
 body{
     @include gradient(#ffff, #4f4f4f);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     
 }
 
@@ -23,6 +27,7 @@ body{
     height: 600px;
     width: 600px;
     margin: auto;
+    
 
     h2{
         display: flex;
@@ -42,6 +47,9 @@ body{
             margin-top: 10px;
             border: 1px solid $third_color;
             border-radius: 5px;
+            font-family: "Barlow Semi Condensed", sans-serif;
+            font-weight: 600;
+            font-style: normal;
         }
 
         button{
@@ -52,6 +60,9 @@ body{
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-family: "Barlow Semi Condensed", sans-serif;
+            font-weight: 600;
+            font-style: normal;
         }
 
         button:hover{
@@ -70,6 +81,9 @@ body{
             height: 30px;
             border: 1px solid $third_color;
             border-radius: 5px;
+            font-family: "Barlow Semi Condensed", sans-serif;
+            font-weight: 600;
+            font-style: normal;
         }
 
         input{
@@ -78,6 +92,9 @@ body{
             margin-top: 10px;
             border: 1px solid $third_color;
             border-radius: 5px;
+            font-family: "Barlow Semi Condensed", sans-serif;
+            font-weight: 600;
+            font-style: normal;
         }
 
         button{
@@ -88,6 +105,9 @@ body{
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-family: "Barlow Semi Condensed", sans-serif;
+            font-weight: 600;
+            font-style: normal;
         }
 
         button:hover{
