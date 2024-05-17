@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Budget Tracker</title>
+</head>
+<body>
+    <header>
+        <nav>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Budget Tracker</h2>
+            <div class="two">
+                <div class="budget">
+                    <h2>Budget</h2>
+                    <input placeholder="Enter Total Amount">
+                    <button>Set Budget</button>
+                </div>
+                <div class="expenses">
+                    <h2>Expenses</h2>
+                    <select>
+                        <option>*Select an option*</option>
+                        <option>Rent / Mortgage</option>
+                        <option>Renter's / Homeowner Insurance</option>
+                        <option>Utilities</option>
+                        <option>Car Loan & Car Insurance</option>
+                        <option>Groceries</option>
+                        <option>Health Care</option>
+                        <option>Miscellaneous</option>
+                    </select>
+                    <input placeholder="Enter Total Amount">
+                    <button>Enter Amount</button>
+                </div>
+            </div>
+            
+            <div class="total">
+                <div>
+                    <h4>Total Income</h4>
+                    <span id="total-income">0</span>
+                </div>
+                
+                <div>
+                    <h4>Total Expenses</h4>
+                    <span id="total-expenses">0</span>
+                </div>
+
+                <div>
+                    <h4>Total Balance</h4>
+                    <span id="total-balance">0</span>
+                </div>
+            </div>
+            <div class="list">
+                <h2>Expenses List</h2>
+                <ul id="expenses-list"></ul>
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+<script src="script.js"></script>
+</html>
