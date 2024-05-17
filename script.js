@@ -5,7 +5,7 @@ class Budget {
         this.transactions = [];
     }
 
-    // Method to add income
+    
     addIncome(description, amount) {
         const income = {
             type: 'income',
@@ -17,7 +17,7 @@ class Budget {
         this.updateBudget();
     }
 
-    // Method to add expense
+    
     addExpense(description, amount) {
         const expense = {
             type: 'expense',
@@ -29,7 +29,7 @@ class Budget {
         this.updateBudget();
     }
 
-    // Method to calculate and update the budget
+    
     updateBudget() {
         const totalBudget = this.totalIncome - this.totalExpenses;
         document.getElementById('total-income').textContent = this.totalIncome.toFixed(2);
@@ -38,7 +38,7 @@ class Budget {
         this.renderExpenses();
     }
 
-    // Method to render the expenses list
+    
     renderExpenses() {
         const expensesList = document.getElementById('expenses-list');
         expensesList.innerHTML = '';
@@ -53,17 +53,17 @@ class Budget {
     }
 }
 
-// Initialize a new Budget instance
+
 const budget = new Budget();
 
-// DOM Elements
+
 const incomeAmountInput = document.querySelector('.budget input');
 const setBudgetButton = document.querySelector('.budget button');
 const expenseDescriptionInput = document.querySelector('.expenses select');
 const expenseAmountInput = document.querySelector('.expenses input');
 const addExpenseButton = document.querySelector('.expenses button');
 
-// Event Listeners
+
 setBudgetButton.addEventListener('click', () => {
     const description = 'Total Budget';
     const amount = incomeAmountInput.value.trim();
